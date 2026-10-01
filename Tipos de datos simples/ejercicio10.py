@@ -4,5 +4,4 @@ pesoMuneca = 75
 numPayaso = int(input("Aañada el numero de payasos: "))
 numMuneca = int(input("Aañada el numero de muñecas: "))
 
-print(f"Este es el peso total de los payasos: {numPayaso * pesoPayaso}")
-print(f"Este es el peso total de las muñecas: {numMuneca * pesoMuneca}")
+print(f"El peso total del paquete es: {(numPayaso * pesoPayaso) + (numMuneca * pesoMuneca)} gramos")
